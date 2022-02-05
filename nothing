@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/43100fe4eb.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+    body{
+      background-size: cover;
+      background-attachment: scroll;
+      background-image: url(https://th.bing.com/th/id/OIP.DGermCcu2e3EhHdk1VZZcQHaEo?pid=ImgDet&rs=1);
+    }
+
+    .abc{
+        background-size: 450px 700px;
+        background-attachment: fixed;
+        background-image: url(https://cdn2.vectorstock.com/i/1000x1000/53/76/ice-blue-abstract-polygon-triangular-pattern-vector-7615376.jpg);
+        margin: 200px auto;
+        display: block;
+        background-color: white;
+        height: 450px;
+        width: 550px;
+        border-radius: 18%;
+    }
+
+    .image{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: 10px auto;
+    } 
+
+    .one{
+        display: inline-block;
+        height: 170px;
+        width: 550px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: -85px;
+    }
+
+    .name{
+        font-family: courier;
+        text-align: center;
+        margin: auto;
+        font-size: 42px;
+    }
+
+    .two{
+        display: inline-block;
+        height: 70px;
+        width: 550px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    .info{
+        font-family: garamond;
+        text-align: center;
+        margin: 10px auto;
+        font-size: 32px;
+    }
+
+    .icons{
+        display: inline-block;
+        height: 60px;
+        width: 450px;
+        margin: 66px 70px;
+    }
+
+    .fab{
+        margin: 5px 12px;
+        color: black;
+    }
+</style>
+
+<body>
+
+    <div class="abc">
+        <div1 class="one"><img class="image" src="https://cdn2.vectorstock.com/i/1000x1000/00/06/teen-boy-character-avatar-vector-11360006.jpg"></div1>
+        <div2 class="two">
+            <h1 class="name">Divyam Jain</h1>
+            <h1 class="info">Student at D.A.V</h1>
+            <h1 class="info">....</h1>
+            <h1 class="info">....</h1>
+            <h1 class="info">....</h1>
+        </div2>
+        <div3 class="icons">
+            <a href="https://www.instagram.com/divyamjain.in/"><i class="fab fa-instagram fa-3x"></i></a>
+            <i class="fab fa-twitter fa-3x"></i>
+            <i class="fab fa-facebook-f fa-3x"></i>
+            <i class="fab fa-linkedin-in fa-3x"></i>
+            <i class="fab fa-telegram-plane fa-3x"></i>
+            <i class="fab fa-whatsapp fa-3x"></i>
+        </div3>
+    </div>
+
+</body>
+</html>
+
